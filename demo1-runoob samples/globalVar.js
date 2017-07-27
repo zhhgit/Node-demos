@@ -1,4 +1,4 @@
-console.time("获取数据");
+console.time("calTime");
 console.log( __filename );
 console.log(__dirname);
 
@@ -15,7 +15,7 @@ var intervalTimer = setInterval(function () {
     }
     else{
         clearInterval(intervalTimer);
-        console.timeEnd('获取数据');
+        console.timeEnd('calTime');
     }
 },2000);
 
