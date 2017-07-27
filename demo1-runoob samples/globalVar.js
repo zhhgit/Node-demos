@@ -19,5 +19,3 @@ var intervalTimer = setInterval(function () {
     }
 },2000);
 
-console.log(global);
-
