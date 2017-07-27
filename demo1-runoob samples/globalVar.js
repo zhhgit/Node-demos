@@ -9,7 +9,7 @@ var timer = setTimeout(function () {
 
 var i = 0;
 var intervalTimer = setInterval(function () {
-    if(i < 5){
+    if(i < 10){
         console.log("hello"+ i);
         i++;
     }
