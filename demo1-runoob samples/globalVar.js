@@ -18,4 +18,3 @@ var intervalTimer = setInterval(function () {
         console.timeEnd('calTime');
     }
 },2000);
-
