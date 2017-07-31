@@ -7,4 +7,7 @@ process.stdout.write("Hello World!" + "\n");
 process.argv.forEach(function(val, index, array) {
     console.log(index + ': ' + val);
 });
+process.on("exit",function (code) {
+    console.log('退出码为:', code);
+});
 
