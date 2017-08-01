@@ -10,4 +10,3 @@ process.argv.forEach(function(val, index, array) {
 process.on("exit",function (code) {
     console.log('退出码为:', code);
 });
-
