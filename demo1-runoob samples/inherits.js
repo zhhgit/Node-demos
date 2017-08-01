@@ -1,4 +1,7 @@
-/*util.inherits方法只能继承Base.prototype方法添加上去的方法*/
+/*util.inherits方法只能继承Base.prototype添加上去的方法，而构造函数内部的属性和方法都没有被Sub继承
+* Base.prototype中定义的属性不会被console.log 作为对象的属性输出。
+* */
+
 var util = require("util");
 function Base(name,age) {
     this.name = name;
