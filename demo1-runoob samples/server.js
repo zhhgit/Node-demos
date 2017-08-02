@@ -1,3 +1,4 @@
+//最简单的http server
 var http = require("http");
 http.createServer(function (req,resp) {
     resp.writeHead(200, {'Content-Type': 'text/plain'});
