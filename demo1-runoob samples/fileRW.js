@@ -1,4 +1,5 @@
 var fs = require("fs");
+//异步读写文件
 fs.writeFile('./doc/file.txt', 'test',  function(err) {
     if (err) {
         console.error(err);
