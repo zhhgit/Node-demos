@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
 <body>
-<form action="http://127.0.0.1:8081/process_get" method="GET">
-    First Name: <input type="text" name="first_name">  <br>
-    Last Name: <input type="text" name="last_name">
+<p>GET表单</p>
+<form action="http://127.0.0.1:3000/getRequest" method="GET">
+    Name: <input type="text" name="name"><br>
+    Age: <input type="text" name="age"><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p>POST表单</p>
+<form action="http://127.0.0.1:3000/postRequest" method="POST">
+    Name: <input type="text" name="name"><br>
+    Age: <input type="text" name="age"><br>
     <input type="submit" value="Submit">
 </form>
 </body>
