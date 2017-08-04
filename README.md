@@ -1,3 +1,3 @@
-# Node-demos
+# Node_practice
 
-Node-demos when learning Node
+Node demos when learning Node
