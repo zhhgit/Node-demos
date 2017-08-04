@@ -14,5 +14,20 @@
     Age: <input type="text" name="age"><br>
     <input type="submit" value="Submit">
 </form>
+
+<p>Cookie中间件</p>
+<form action="http://127.0.0.1:3000/cookieRequest" method="POST">
+    Name: <input type="text" name="name"><br>
+    Age: <input type="text" name="age"><br>
+    <input type="submit" value="Submit">
+</form>
+
+<p>文件上传</p>
+<form action="http://127.0.0.1:3000/uploadFile" method="post" enctype="multipart/form-data">
+    <input type="file" name="txt" />
+    <br />
+    <input type="submit" value="上传文件" />
+</form>
+
 </body>
 </html>
